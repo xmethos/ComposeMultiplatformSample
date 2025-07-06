@@ -20,6 +20,8 @@ import multimodulecmpapp.composeapp.generated.resources.compose_multiplatform
 import net.ecorp.samples.apis.herenvolk.resources.ic_album
 import net.ecorp.samples.apis.talithacumi.resources.ic_x_logo
 import net.ecorp.samples.apis.talithacumi.resources.lbl_albums
+import org.jetbrains.compose.resources.getString
+import org.jetbrains.compose.resources.stringResource
 import net.ecorp.samples.apis.herenvolk.resources.Res as HerenvolkRes
 import net.ecorp.samples.apis.talithacumi.resources.Res as TalithaCumiRes
 @Composable
@@ -38,7 +40,7 @@ fun App() {
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             Button(onClick = { showContent = !showContent }) {
-                Text("Click me! : $str")
+                Text("Click me! : ${stringResource(str)}")
             }
             AnimatedVisibility(showContent) {
                 val greeting = remember { Greeting().greet() }
