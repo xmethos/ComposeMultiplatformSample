@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_title">undefined</string>
+    <string name="lbl_favorite_songs">Favorite songs</string>
+    <string name="whats_new_title">What's new</string>
+    <string name="listening_history_title">History</string>
+    <string name="settings_title">Settings</string>
+    <string name="lbl_recommendations">You might also like</string>
+    <string name="lbl_fetching_datas">Fetching datas</string>
+    <string name="lbl_retry">Retry</string>
+    <string name="lbl_progress_indicator">Progress indicator</string>
+    <string name="lbl_data_not_found">Data not found</string>
+    <string name="lbl_work_in_progress">Work in progress</string>
+</resources>

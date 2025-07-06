@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="artist_title">Artist</string>
+    <string name="lbl_popular_tracks">Popular</string>
+    <string name="lbl_popular_releases">Popular releases</string>
+    <string name="lbl_see_discography">see discography</string>
+    <string name="lbl_relatedArtists">Related artists</string>
+    <string name="lbl_featuring">Featuring %1$s</string>
+    <string name="lbl_appears_on">Appears on</string>
+    <string name="lbl_discovered_on">Discovered on</string>
+    <string name="lbl_latest_release">Latest</string>
+    <string name="lbl_albums">Albums</string>
+    <string name="lbl_singles">Singles</string>
+    <string name="lbl_verified_artist">Verified artist</string>
+    <string name="lbl_artists_playlist">Artist Playlists</string>
+    <string name="lbl_artist_pick">Artist pick</string>
+    <string name="lbl_posted_by">Posted by %1$s</string>
+    <string name="lbl_about_artist">About the artist</string>
+    <string name="lbl_popular">Popular</string>
+    <string name="lbl_live_events">Live events</string>
+    <string name="lbl_find_tickets">Find tickets</string>
+    <plurals name="lbl_monthly_listeners_0">
+        <item quantity="zero">monthly listener</item>
+        <item quantity="one">monthly listener</item>
+        <item quantity="other">%1$s monthly listeners</item>
+    </plurals>
+    <plurals name="lbl_monthly_listeners">
+        <item quantity="zero">MONTHLY LISTENER</item>
+        <item quantity="one">MONTHLY LISTENER</item>
+        <item quantity="other">MONTHLY LISTENERS</item>
+    </plurals>
+    <plurals name="lbl_followers">
+        <item quantity="zero">FOLLOWER</item>
+        <item quantity="one">FOLLOWER</item>
+        <item quantity="other">FOLLOWERS</item>
+    </plurals>
+    <plurals name="lbl_events_count">
+        <item quantity="one">%1$s event on tour</item>
+        <item quantity="other">%1$s events on tour</item>
+    </plurals>
+</resources>
